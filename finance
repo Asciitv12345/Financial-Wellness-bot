@@ -1,0 +1,128 @@
+financial-wellness-bot/
+├── public/
+│   ├── index.html
+│   └── manifest.json
+├── src/
+│   ├── components/
+│   │   ├── EmotionalBudgetPlanner.js
+│   │   └── MoneyEmotionsBot.js
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── package.json
+├── README.md
+└── .gitignore
+{
+  "name": "financial-wellness-bot",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://yourusername.github.io/financial-wellness-bot",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="AI-powered financial wellness platform combining emotional guidance with mathematical budgeting tools"
+    />
+    <title>Financial Wellness Bot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>   
+
+# Financial Wellness Platform
+
+An AI-powered financial wellness solution that combines emotional guidance with mathematical budgeting tools to help users build healthier relationships with money.
+
+## 🚀 Live Demo
+[View Live Application](https://yourusername.github.io/financial-wellness-bot)
+
+## 📋 Features
+
+### Money Emotions Manager Chatbot
+- Interactive AI conversations about financial emotions
+- Personalized coping strategies for financial stress
+- Emotional trigger identification and management
+- Supportive guidance for various financial feelings (anxiety, guilt, overwhelm, etc.)
+
+### Emotional Budget Planner
+- Comprehensive income and expense tracking
+- Smart categorization (needs vs wants)
+- Savings goal analysis with feasibility modeling
+- Mathematical budget optimization using 50/30/20 framework
+- Personalized financial health assessment
+- Actionable recommendations for financial improvement
+
+## 🛠️ Technologies Used
+- **Frontend**: React, JavaScript, HTML5, CSS3
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **State Management**: React Hooks
+- **Deployment**: GitHub Pages
+
+## 🎯 Key Innovations
+- **Emotional Intelligence Integration**: Combines psychology with financial planning
+- **Mathematical Analysis**: Uses proven budgeting frameworks for optimization
+- **Personalized Insights**: Tailored recommendations based on individual profiles
+- **User-Centric Design**: Intuitive interface that guides users from assessment to action
+
+## 💡 Problem Solved
+Traditional budgeting tools focus solely on numbers, ignoring the emotional aspects of financial decisions. This platform recognizes that financial wellness requires both mathematical planning and emotional support, providing users with comprehensive tools to address both aspects.
+
+## 🚦 Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/financial-wellness-bot.git
+   cd financial-wellness-bot
